@@ -24,7 +24,7 @@ public class TestHttpClient1 {
     private static final String BOUNDARY = "19dj0d239d23d";
     public static void main(String[] args) throws IOException {
             HttpHost target
-                    = new HttpHost("localhost", 8000, "http");
+                    = new HttpHost("ml10.eng.marklogic.com", 8000, "http");
             CredentialsProvider credsProvider = new BasicCredentialsProvider();
 
             UsernamePasswordCredentials credentials
